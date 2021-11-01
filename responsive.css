@@ -1,0 +1,524 @@
+@media all and (max-width:1366px) {
+    body {
+        padding: 20px 20px;
+    }
+
+    .multipole-heading h1 {
+        width: 62%;
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .skills-img {
+        width: 55%;
+    }
+}
+
+
+
+@media all and (max-width:1280px) {
+    .header-logo img {
+        margin-left: -70%;
+    }
+
+    .multipole-heading h1 {
+        width: 75%;
+        font-size: 43px;
+        line-height: 60px;
+    }
+
+    .selected-section {
+        padding: 6% 0;
+    }
+
+}
+
+@media all and (max-width:1080px) {
+    .header-logo img {
+        margin-left: 0;
+    }
+
+    .about-section-contant {
+        width: 70%;
+    }
+
+    .about-section-img {
+        width: 70%;
+    }
+
+    .about-item {
+        justify-content: center;
+    }
+
+    .heading h1 {
+        font-size: 24px;
+    }
+
+    .heading p {
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .multipole-heading h1 {
+        width: 100%;
+        font-size: 47px;
+        line-height: 60px;
+        font-weight: 600;
+    }
+
+    .selected-section {
+        padding: 6% 0;
+    }
+
+
+}
+
+@media all and (max-width:976px) {
+    .about-section-contant {
+        width: 80%;
+    }
+
+    .about-section-img {
+        width: 80%;
+    }
+
+    .heading p {
+        width: 100%;
+    }
+
+    .heading h1 {
+        font-size: 24px;
+    }
+
+    .multipole-heading h1 {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .selected-section {
+        padding: 6% 0;
+    }
+
+    .skills-contant-item {
+        width: 45%;
+    }
+
+    .employment-text h1 {
+        display: block;
+        padding-left: 0%;
+        padding-bottom: 6%;
+        padding-top: 5%;
+    }
+
+
+}
+
+.header-manu input[type="checkbox"]{
+    display: none;
+}
+.header-manu span{
+    display: none;
+}
+
+@media all and (max-width:876px) {
+    .header-manu input[type="checkbox"]{
+        display: block;
+    }
+    .header-manu span{
+        display: block;
+    }
+
+    .header-logo img {
+        margin-left: -70% !important;
+    }
+
+    .about-section-contant {
+        width: 100%;
+    }
+
+    .about-section-img {
+        width: 100%;
+    }
+
+    .multipole-heading h1 {
+        width: 100%;
+        font-size: 38px;
+    }
+
+    .selected-all-item {
+        width: 49%;
+        margin-bottom: 21px;
+    }
+
+    .employment-text h1 {
+        display: inline-block;
+        padding-left: 0%;
+        padding-bottom: 6%;
+        padding-top: 5%;
+    }
+
+    .education-contant {
+        flex-wrap: wrap;
+    }
+
+    .education-contant-left {
+        width: 100%;
+    }
+
+    .education-contant-Right {
+        width: 100%;
+    }
+
+    .form-contant-top {
+        flex-wrap: wrap;
+    }
+
+    .from-contact-box {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .form-left-item {
+        width: 100%;
+    }
+
+    .form-right-item {
+        width: 100%;
+    }
+
+    .header-logo {
+        width: 100%;
+        text-align: center;
+    }
+    .header-manu ul {
+        padding-top: 15px;
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        top: 86px;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 235px;
+        background-color: #0000ff78;
+    }
+
+
+    .header-manu ul li ul {
+        top: 20%;
+        left: 117px;
+        background: #0427e32b;
+    }
+    .header-manu ul li ul li ul {
+	left: 100%;
+    }
+    .header-manu ul li samp {
+	left: 85%;
+    }
+
+    .header-manu input[type="checkbox"]:checked ~ ul{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .header-manu input[type="checkbox"] {
+        height: 50px;
+        width: 50px;
+        background: blue;
+        appearance: none;
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        cursor: pointer;
+        opacity: 0;
+    }
+    
+
+    .header-manu span {
+        position: absolute;
+        top: 20px;
+        right: 50px;
+        color: #fff;
+        font-size: 40px;
+        pointer-events: none;
+    }
+    .header-manu ul li p{
+        display: none;
+    }
+    
+
+
+
+}
+
+@media all and (max-width:768px) {
+    .about-section-contant {
+        padding: 0;
+
+    }
+
+    .bannar-contant h2::after {
+        content: "";
+        height: 0;
+        width: 0;
+    }
+
+    .bannar-contant h2::before {
+        content: "";
+        height: 0;
+        width: 0;
+    }
+
+    .bannar-contant h1 {
+        font-size: 53px;
+        padding-top: 15px;
+    }
+
+    .multipole-heading h1 {
+        width: 100%;
+        font-size: 37px;
+        line-height: 50px;
+    }
+
+    .selected-section {
+        padding: 54px 0;
+    }
+
+    .counter-item {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .counter-item-contant {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .employment-item {
+        flex-wrap: wrap;
+    }
+
+    .employment-contant {
+        margin-bottom: 20px;
+    }
+
+    .employment-text h1 {
+        display: block;
+        padding-left: 0;
+        padding-bottom: 0%;
+        margin-top: -2%;
+    }
+
+    .employment-logo img {
+        margin-bottom: 3%;
+    }
+
+    .employment-section {
+        padding-left: 20px;
+    }
+
+    .form-bottom-contant {
+        flex-wrap: wrap;
+    }
+
+    .form-right-item {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .form-left-item {
+        width: 100%;
+        padding: 30px;
+    }
+
+
+}
+
+@media all and (max-width: 668px) {
+    .selected-all-item {
+        width: 100%;
+    }
+
+    .skills-contant-item {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .skills-img {
+        width: 30%;
+    }
+
+    .skills-text h2 {
+        font-size: 21px;
+        padding-top: 20px;
+    }
+
+    .skills-text p {
+        font-size: 16px;
+        padding-top: 11px;
+        display: contents;
+    }
+
+}
+
+@media all and (max-width:576px) {
+    .about-left-contant {
+        width: 50%;
+    }
+
+    .about-right-contant {
+        width: 50%;
+    }
+
+    .bannar-contant h1 {
+        font-size: 35px;
+        padding-top: 15px;
+    }
+
+    .bannar-contant h2 {
+        font-size: 12px;
+    }
+
+    .multipole-heading h1 {
+        width: 100%;
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .counter-item-contant {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .eduction-item {
+        flex-wrap: wrap;
+    }
+
+    .education-text {
+        width: 100%;
+    }
+
+    .education-contant-left {
+        width: 100%;
+    }
+
+    .education-text-right {
+        width: 100%;
+    }
+
+    .education-text-right p {
+        margin-left: 0;
+    }
+
+    .education-text h1 {
+        margin-bottom: 3%;
+    }
+
+    .education-text p {
+        margin-bottom: 3%;
+    }
+
+    .education-text h6 {
+        margin-bottom: 5%;
+    }
+
+    .award-all-img {
+        width: 50%;
+        padding-left: 15px;
+    }
+    .text-selected li {
+        text-align: center;
+    }
+
+
+}
+
+@media all and (max-width:468px) {
+    .heading h1 {
+        line-height: 33px;
+        font-size: 16px;
+    }
+
+    .heading p {
+        width: 100%;
+    }
+
+    .about-right-contant ul li {
+        font-size: 14px;
+    }
+
+    .about-left-contant ul li {
+        font-size: 15px;
+    }
+
+    .bannar-contant h2 {
+        font-size: 13px;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .award-all-img {
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    .award-img-item {
+        text-align: center;
+    }
+
+    .form-left-item {
+        display: contents;
+    }
+
+    .form-right-item {
+        width: 100%;
+        padding: 30px;
+        display: contents;
+    }
+    .text-selected li {
+        text-align: center;
+    }
+    .text-selected ul {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .text-selected li {
+        padding-bottom: 25px;
+        padding-top: 10px;
+    }
+
+}
+
+@media all and (max-width:376px) {
+    .bannar-contant h1 {
+        font-size: 27px;
+        padding-top: 20px;
+    }
+    .header-logo img {
+        margin-left: -60% !important;
+    }
+    .header-manu ul li ul {
+        position: absolute;
+        top: -310%;
+        left: 101px;
+        width: 161px;
+        background-color: #b700f95e;
+    }
+    .header-manu ul li ul li ul {
+        left: 0%;
+        top: 90px;
+    }
+    .header-manu ul li samp {
+        display: none;
+    }
+    .form-bottom-item form button[type="submit"] {
+        font-weight: 600;
+        padding: 16px 21px;
+        font-size: 13px;
+    }
+
+}
